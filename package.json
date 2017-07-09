@@ -58,10 +58,9 @@
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
-    "build": "gatsby build && node ampify.js",
     "serve-build": "gatsby serve-build",
     "clean": "bash scripts/clean-html.sh",
-    "predeploy": "npm run build --prefix-links",
+    "predeploy": "gatsby build --prefix-links && node ampify.js",
     "deploy": "node scripts/deploy-ghpages/index.js"
   }
 }
