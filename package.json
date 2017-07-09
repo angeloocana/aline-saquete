@@ -61,7 +61,7 @@
     "build": "gatsby build && node ampify.js",
     "serve-build": "gatsby serve-build",
     "clean": "bash scripts/clean-html.sh",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build --prefix-links",
     "deploy": "node scripts/deploy-ghpages/index.js"
   }
 }
