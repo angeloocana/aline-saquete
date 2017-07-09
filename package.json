@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Angelo Ocana <angeloocana@gmail.com>",
   "bugs": {
-    "url": "https://github.com/angeloocana/angeloocana/issues"
+    "url": "https://github.com/angeloocana/aline-saquete/issues"
   },
   "dependencies": {
     "cheerio": "^0.22.0",
@@ -42,7 +42,7 @@
     "eslint-plugin-react": "^7.1.0",
     "eslint-plugin-standard": "^3.0.1"
   },
-  "homepage": "https://github.com/angeloocana/angeloocana#readme",
+  "homepage": "https://github.com/angeloocana/aline-saquete#readme",
   "keywords": [
     "gatsby"
   ],
@@ -50,7 +50,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angeloocana/angeloocana.git"
+    "url": "git+https://github.com/angeloocana/aline-saquete.git"
   },
   "scripts": {
     "prestart": "npm run lint",
