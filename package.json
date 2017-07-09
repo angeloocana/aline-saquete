@@ -60,6 +60,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build && node ampify.js",
     "serve-build": "gatsby serve-build",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public"
+    "clean": "bash scripts/clean-html.sh",
+    "deploy": "node scripts/deploy-ghpages/index.js"
   }
 }
